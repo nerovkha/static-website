@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+    }
+    
+    .nav-container{
+        background-color: #FF3F00;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+
+    a{
+        color: white;
+    }
+    
+    header{
+        color: #FF3F00;
+        
+    }
+    
+    header:hover {
+        color: black;
+        text-decoration:underline;
+        
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+
+    .navbar-nav .nav-link {
+        text-decoration: none;
+        color: white;
+
+    }
+
+    .main-footer
+    {
+    
+    background-color:#FF3F00;
+    font-family: 'Times New Roman', Times, serif;
+    
+    }
+    
+    .footer-finisher
+    {
+        margin-top: 10px;
+        
+        background-color:#FF3F00;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+    
+    .main-footer{
+    font-size: 1em;
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 1.2em;
+    }
+}
+
+    
+    
+    /* Custom CSS in style.css */
+    
+    /* Adjustments for small screens */
+    @media (max-width: 576px) {
+        /* Your styles for small screens go here */
+    }
+    
+    /* Adjustments for medium screens */
+    @media (min-width: 577px) and (max-width: 768px) {
+        /* Your styles for medium screens go here */
+    }
+    
+    /* Adjustments for large screens */
+    @media (min-width: 769px) {
+        /* Your styles for large screens go here */
+    }
+    
+    .navbar-toggler-icon {
+    color: rgb(245, 245, 245);
+    }
+
+
+
+
+.footer span {
+    display: block; /* Ensures each span is on a new line */
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .footer {
+        text-align: center; /* Center-align the content */
+    }
+
+    .footer span {
+        margin-bottom: 10px; /* Add spacing between lines on smaller screens */
+    }
+}
