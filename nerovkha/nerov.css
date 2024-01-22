@@ -1,31 +1,63 @@
-body{
+/* nerov.css */
 
-margin: 0;
-padding: 0;
-display: flex;
-justify-content: center;
-
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Set your desired background color */
 }
 
-.row-container{
-padding: 5px;
-text-align: center;
-margin-top: 20px;
-box-sizing: border-box;
-box-shadow: gainsboro;
-
-
+/* Header Styles */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
 }
-.d-img{
-    width: 200px;
-    height: 200px;
-    
-    
-    }
 
-    .main-footer
-    {
-    
-    background-color:#FF3F00;
-    
-    }
+/* Navigation Styles */
+.navbar {
+    background-color: #007bff; /* Set your desired navbar background color */
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important; /* Set your desired navbar text color */
+}
+
+/* Container Styles */
+.main-container {
+    margin-top: 20px;
+}
+
+/* Enter Location Styles */
+.enter-location {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Image Styles */
+.d-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+.main-footer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #343a40; /* Set your desired footer background color */
+    color: #fff; /* Set your desired footer text color */
+}
+
+.main-footer span {
+    margin-left: 5px;
+}
+
+/* Social Media Icons Styles */
+.main-footer svg {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* Responsive Styles */
+@media (max-width: 576px) {
+    /* Adjust styles for small screens */
+}
