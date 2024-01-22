@@ -1,45 +1,51 @@
 body{
-margin: 0;
-padding: 0;
-
-
-}
-
-.nav-container{
-    background-color: #FF3F00;
-
-}
-
-.main-footer
-{
-
-background-color:#FF3F00;
-
-}
-
-.footer-finisher
-{
-    margin-top: 10px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+    }
+    
+    .nav-container{
+        background-color: #FF3F00;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+    
+    .main-footer
+    {
+    
     background-color:#FF3F00;
-
-
-}
-
-
-/* Custom CSS in style.css */
-
-/* Adjustments for small screens */
-@media (max-width: 576px) {
-    /* Your styles for small screens go here */
-}
-
-/* Adjustments for medium screens */
-@media (min-width: 577px) and (max-width: 768px) {
-    /* Your styles for medium screens go here */
-}
-
-/* Adjustments for large screens */
-@media (min-width: 769px) {
-    /* Your styles for large screens go here */
-}
-
+    font-family: 'Times New Roman', Times, serif;
+    
+    }
+    
+    .footer-finisher
+    {
+        margin-top: 10px;
+        background-color:#FF3F00;
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+    
+    
+    /* Custom CSS in style.css */
+    
+    /* Adjustments for small screens */
+    @media (max-width: 576px) {
+        /* Your styles for small screens go here */
+    }
+    
+    /* Adjustments for medium screens */
+    @media (min-width: 577px) and (max-width: 768px) {
+        /* Your styles for medium screens go here */
+    }
+    
+    /* Adjustments for large screens */
+    @media (min-width: 769px) {
+        /* Your styles for large screens go here */
+    }
+    
+    .navbar-toggler-icon {
+    color: whitesmoke;
+    }
