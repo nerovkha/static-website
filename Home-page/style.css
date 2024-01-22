@@ -104,3 +104,7 @@ body{
         margin-bottom: 10px; /* Add spacing between lines on smaller screens */
     }
 }
+
+.navbar-toggler{
+    background-color: whitesmoke;
+}
