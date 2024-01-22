@@ -1,31 +1,110 @@
-body{
+/* Add these styles to your nerov.css file */
 
-margin: 0;
-padding: 0;
-display: flex;
-justify-content: center;
-
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.row-container{
-padding: 5px;
-text-align: center;
-margin-top: 20px;
-box-sizing: border-box;
-box-shadow: gainsboro;
-
-
+/* Header Styles */
+header.h1 {
+    font-size: 2rem;
+    font-weight: bold;
 }
-.d-img{
+
+/* Enter Location Styles */
+.enter-location {
+    display: flex;
+    align-items: center;
+}
+
+.enter-location svg {
+    margin-right: 5px;
+}
+
+/* Navigation Styles */
+.navbar {
+    background-color:#FF3F00;
+    font-family: 'Times New Roman', Times, serif; 
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.navbar-toggler-icon {
+    background-color: #000;
+}
+
+/* Search Form Styles */
+.form-inline {
+    justify-content: flex-end;
+}
+
+.form-control {
+    width: 100%;
+}
+
+/* Image Row Styles */
+.row-container {
+    margin-bottom: 20px;
+}
+
+.row-container .col-4 {
+    padding: 10px;
+}
+
+/* Image Styles */
+.d-img {
     width: 200px;
     height: 200px;
-    
-    
-    }
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
 
-    .main-footer
-    {
-    
-    background-color:#FF3F00;
-    
+/* Hover effect for images */
+.d-img:hover {
+    transform: scale(1.05);
+}
+.image-container {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+}
+
+.order-btn
+
+{
+    display: block;
+    margin-left: 50px;
+    background: #beb7a4;
+    border-radius: 10px;
+}
+
+
+/* Footer Styles */
+.main-footer {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    background-color:#FF3F00
+}
+
+.main-footer svg {
+    margin-right: 5px;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar-toggler {
+        margin-right: 0;
     }
+}

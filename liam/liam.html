@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Joo-Marketti</a>
+      <!-- Add your navigation links here -->
+    </div>
+  </nav>
+
+  <!-- Shopping Cart -->
+  <div class="card">
+    <div class="row">
+      <div class="col-md-8 cart">
+        <div class="title">
+          <div class="row">
+            <div class="col">
+              <h4><b>Shopping Cart</b></h4>
+            </div>
+            <div class="col align-self-center text-right text-muted">2 items</div>
+          </div>
+        </div>
+
+        <!-- Product 1 -->
+        <div class="row border-top border-bottom main align-items-center product-item">
+          <div class="col-2">
+            <img class="img-fluid" src="images/lars-blankers-6Z7Ss9jlEL0-unsplash.jpg" alt="Product Image">
+          </div>
+          <div class="col">
+            <div class="row text-muted">Vegetables</div>
+            <div class="row">Heirloom tomato</div>
+          </div>
+          <div class="col">
+            <a href="#">-</a><a href="#" class="border">1 kg</a><a href="#">+</a>
+          </div>
+          <div class="col">&euro; 4.00 <span class="close">&#10005;</span></div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="row border-top border-bottom main align-items-center product-item">
+          <div class="col-2">
+            <img class="img-fluid" src="images/mockup-graphics-vVjA1KeKg-w-unsplash.jpg" alt="Product Image">
+          </div>
+          <div class="col">
+            <div class="row text-muted">Vegetables</div>
+            <div class="row">Banana</div>
+          </div>
+          <div class="col">
+            <a href="#">-</a><a href="#" class="border">1 kg</a><a href="#">+</a>
+          </div>
+          <div class="col">&euro; 5.00 <span class="close">&#10005;</span></div>
+        </div>
+
+        <div class="back-to-shop">
+          <a href="#">&leftarrow;</a><span class="text-muted">Back to shop</span>
+        </div>
+      </div>
+
+      <div class="col-md-4 summary">
+        <div>
+          <h5><b>Summary</b></h5>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col" style="padding-left:0;">ITEMS 2</div>
+          <div class="col text-right">&euro; 9.00</div>
+        </div>
+
+        <form>
+          <p>SHIPPING</p>
+          <select>
+            <option class="text-muted">Standard-Delivery- &euro;5.00</option>
+          </select>
+
+          <p>PROMO CODE</p>
+          <input id="code" placeholder="Enter your code">
+        </form>
+
+        <div class="row" style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;">
+          <div class="col">TOTAL PRICE</div>
+          <div class="col text-right">&euro; 14.00</div>
+        </div>
+
+        <button class="btn">CHECKOUT</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
