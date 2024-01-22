@@ -1,63 +1,108 @@
-/* nerov.css */
+/* Add these styles to your nerov.css file */
 
-/* Body Styles */
+/* Global Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa; /* Set your desired background color */
+    margin: 0;
+    padding: 0;
 }
 
 /* Header Styles */
-.header {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-/* Navigation Styles */
-.navbar {
-    background-color: #007bff; /* Set your desired navbar background color */
-}
-
-.navbar-nav .nav-link {
-    color: #fff !important; /* Set your desired navbar text color */
-}
-
-/* Container Styles */
-.main-container {
-    margin-top: 20px;
+header.h1 {
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 /* Enter Location Styles */
 .enter-location {
-    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+}
+
+.enter-location svg {
+    margin-right: 5px;
+}
+
+/* Navigation Styles */
+.navbar {
+    background-color: #3498db; 
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.navbar-toggler-icon {
+    background-color: #000;
+}
+
+/* Search Form Styles */
+.form-inline {
+    justify-content: flex-end;
+}
+
+.form-control {
+    width: 100%;
+}
+
+/* Image Row Styles */
+.row-container {
+    margin-bottom: 20px;
+}
+
+.row-container .col-4 {
     padding: 10px;
 }
 
 /* Image Styles */
 .d-img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
 }
+
+/* Hover effect for images */
+.d-img:hover {
+    transform: scale(1.05);
+}
+.image-container {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+}
+
+.order-btn
+
+{
+    display: block;
+    margin-left: 50px;
+    background-color: #3498db;
+    border-radius: 10px;
+}
+
 
 /* Footer Styles */
 .main-footer {
     margin-top: 20px;
-    padding: 20px;
-    background-color: #343a40; /* Set your desired footer background color */
-    color: #fff; /* Set your desired footer text color */
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
 }
 
-.main-footer span {
-    margin-left: 5px;
-}
-
-/* Social Media Icons Styles */
 .main-footer svg {
     margin-right: 5px;
-    vertical-align: middle;
 }
 
+
 /* Responsive Styles */
-@media (max-width: 576px) {
-    /* Adjust styles for small screens */
+@media (max-width: 768px) {
+    .navbar-toggler {
+        margin-right: 0;
+    }
 }
