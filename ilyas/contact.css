@@ -18,7 +18,8 @@ body {
 a{
 color: #f8f9fa;
 text-decoration: none;
-font-size: 24px;
+font-size: 16px;
+padding: 0;
 
 }
 
@@ -32,8 +33,8 @@ h1 {
 /* Header Styles */
 .header {
     background-color: #FF3F00;
-    font-size: 24px;
-    padding: 25px;
+    font-size: 19px;
+    padding: 19px;
     text-align: center;
     width: 100%;
 }
@@ -59,9 +60,9 @@ h1 {
     margin: 6px 0; /* Adjust the spacing between lines */
   }
 .navbar {
-    padding: 0px 0%;
+    padding: 0px 0px;
     background-color: #FF3F00;
-    font-size: 12px;
+    font-size: 19px;
 }
 
 .navbar-nav .nav-link {
@@ -112,7 +113,7 @@ h1 {
 /* Responsive Styles */
 @media (max-width: 768px) {
     .header {
-        font-size: 12px;
+        font-size: 24px;
     }
 
     .navbar-nav .nav-link {
