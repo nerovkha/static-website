@@ -61,7 +61,7 @@ h1 {
 .navbar {
     padding: 0px 0%;
     background-color: #FF3F00;
-    font-size: 19px;
+    font-size: 12px;
 }
 
 .navbar-nav .nav-link {
@@ -112,7 +112,7 @@ h1 {
 /* Responsive Styles */
 @media (max-width: 768px) {
     .header {
-        font-size: 24px;
+        font-size: 12px;
     }
 
     .navbar-nav .nav-link {
