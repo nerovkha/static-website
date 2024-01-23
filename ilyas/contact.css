@@ -43,14 +43,23 @@ h1 {
     background-color: #FF3F00;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
-span.navbar-toggler-icon{
-color: #343a40;
-
-}
+.navbar-toggler-icon {
+    background-color: transparent; /* Set the background color to transparent */
+    border: 1px solid #fff; /* Add a border for visibility */
+  }
+  
+  .navbar-toggler-icon::before,
+  .navbar-toggler-icon::after {
+    content: ''; /* Empty content for pseudo-elements */
+    display: block; /* Make them block elements */
+    height: 3px; /* Set the height of each line */
+    width: 29px; /* Set the width of each line */
+    background-color: black; /* Set the color of each line */
+    margin: 6px 0; /* Adjust the spacing between lines */
+  }
 .navbar {
     padding: 10px 20px;
-    background-color: #FF3F00;
+    background-color: #fff;
 }
 
 .navbar-nav .nav-link {
@@ -59,8 +68,14 @@ color: #343a40;
 }
 
 .navbar-toggler-icon{
-    color: #343a40;
+    color: black;
+    border: none;
 } 
+
+.navbar-toggler {
+    background-color: #FF3F00; 
+
+}
 
 .div-container{
 
@@ -110,10 +125,7 @@ color: #343a40;
 }
 
 
-.navbar-toggler {
-    background-color: transparent; 
 
-}
 
 
 
