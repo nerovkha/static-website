@@ -9,24 +9,14 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-}
-
-header {
-    color: #FF3F00;
-}
-
-header:hover {
-    color: blue;
-    text-decoration: underline;
-}
-
 .navbar-nav .nav-link {
     text-decoration: none;
     color: white;
 }
+
+.navbar-nav .nav-link.show {
+    color: white;
+  }
 
 @media (min-width: 768px) {
     body {
@@ -34,25 +24,17 @@ header:hover {
     }
 }
 
-/* Custom CSS in style.css */
-
-/* Adjustments for small screens */
-@media (max-width: 576px) {
-    /* Your styles for small screens go here */
+/* Custom CSS for the provided HTML structure */
+.container-fluid.main-container {
+    padding: 0;
 }
 
-/* Adjustments for medium screens */
-@media (min-width: 577px) and (max-width: 768px) {
-    /* Your styles for medium screens go here */
-}
-
-/* Adjustments for large screens */
-@media (min-width: 769px) {
-    /* Your styles for large screens go here */
+.bg-body-tertiary {
+    background-color: #FF3F00 !important;
 }
 
 .navbar-toggler-icon {
-    color: rgb(245, 245, 245);
+    color: #fff;
 }
 
 .card {
@@ -65,12 +47,6 @@ header:hover {
     background-color: white;
 }
 
-@media (max-width: 767px) {
-    .card {
-        margin: 3vh auto;
-    }
-}
-
 .cart {
     background-color: #fff;
     padding: 4vh 5vh;
@@ -78,12 +54,10 @@ header:hover {
     border-top-left-radius: 1rem;
 }
 
-@media (max-width: 767px) {
-    .cart {
-        padding: 4vh;
-        border-bottom-left-radius: unset;
-        border-top-right-radius: 1rem;
-    }
+.cart img {
+    width: 100%;
+    max-width: 70px;
+    height: auto;
 }
 
 .summary {
@@ -92,13 +66,6 @@ header:hover {
     border-bottom-right-radius: 1rem;
     padding: 4vh;
     color: #000000;
-}
-
-@media (max-width: 767px) {
-    .summary {
-        border-top-right-radius: unset;
-        border-bottom-left-radius: 1rem;
-    }
 }
 
 .summary .col-2,
@@ -111,7 +78,7 @@ header:hover {
 }
 
 .title b {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .main {
@@ -188,12 +155,12 @@ input:focus::-webkit-input-placeholder {
 }
 
 a {
-    color: #000;
+    color: black;
+    text-decoration: none;
 }
 
 a:hover {
     color: #000;
-    text-decoration: none;
 }
 
 #code {
@@ -202,4 +169,12 @@ a:hover {
     background-repeat: no-repeat;
     background-position-x: 95%;
     background-position-y: center;
+}
+
+.copyright-box {
+    background-color: #FF3F00; /* White background */
+    margin-top: 10px; /* Add margin between the two boxes */
+    padding: 0px; /* Add padding for space inside the box */
+    text-align: center;
+    color: white;
 }
