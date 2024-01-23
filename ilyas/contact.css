@@ -1,5 +1,5 @@
  
-body, h1, h2, h3, p {
+body {
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
@@ -19,9 +19,10 @@ a{
 color: #f8f9fa;
 text-decoration: none;
 font-size: 16px;
-padding: 0;
+padding: 1;
 
 }
+
 
 
 h1 {
@@ -31,14 +32,10 @@ h1 {
 }
 
 /* Header Styles */
-.header {
-    background-color: #FF3F00;
-    font-size: 19px;
-    padding: 19px;
-    text-align: center;
-    width: 100%;
-}
 
+header a {
+    font-size: 40px; /* Adjust the font size as needed */
+}
 
 /* Navigation Bar Styles */
 .nav-container {
