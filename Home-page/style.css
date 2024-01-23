@@ -119,5 +119,20 @@ a {
 }
 
 .navbar-toggler{
-    background-color: whitesmoke;
+    background-color: #FF3F00;
 }
+
+navbar-toggler-icon {
+    background-color: transparent; /* Set the background color to transparent */
+    border: 1px solid #fff; /* Add a border for visibility */
+  }
+  
+  .navbar-toggler-icon::before,
+  .navbar-toggler-icon::after {
+    content: ''; /* Empty content for pseudo-elements */
+    display: block; /* Make them block elements */
+    height: 2px; /* Set the height of each line */
+    width: 30px; /* Set the width of each line */
+    background-color: black; /* Set the color of each line */
+    margin: 6px 0; /* Adjust the spacing between lines */
+  }
