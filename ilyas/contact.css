@@ -1,4 +1,4 @@
-//* Reset some default styles */
+/* Reset some default styles */
 body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
@@ -14,9 +14,7 @@ body {
 
 }
 
-.container-fluid {
-    padding: 20px;
-}
+
 
 h1 {
     color: black; /* Primary color for headers */
@@ -25,8 +23,8 @@ h1 {
 
 /* Header Styles */
 .header {
-    background-color: #007bff;
-    color: #ffffff;
+    background-color: #FF3F00;
+    
     padding: 20px;
     text-align: center;
     width: 100%;
@@ -35,23 +33,26 @@ h1 {
 
 /* Navigation Bar Styles */
 .nav-container {
-    background-color: #ff3f00;
+    background-color: #FF3F00;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .navbar {
     padding: 10px 20px;
+    background-color: #FF3F00;
 }
 
 .navbar-nav .nav-link {
-    color: #343a40;
+    color: white;
     margin-right: 15px;
 }
 
-.navbar-nav .nav-link:hover {
-    color: #007bff; /* Hover color */
-}
 
+
+.div-container{
+
+    padding: 0% 12px;
+}
 /* Contact Form Styles */
 .contact-container {
     background-color: #ffffff;
@@ -96,6 +97,32 @@ h1 {
 }
 
 
-.navbar-toggler{
-    background-color: whitesmoke;
+.navbar-toggler {
+    background-color: #fff; 
+
+}
+
+
+
+.copyright-box {
+    background-color: #ff3f00;
+   
+}
+
+.copyright {
+    color: #ffffff;
+}
+
+
+footer{
+    background-color: #FF3F00; /* White background */
+    margin-top: 0px; /* Add margin between the two boxes */
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    position: fixed;
 }
