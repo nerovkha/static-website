@@ -1,4 +1,4 @@
-//* Reset some default styles */
+/* Reset some default styles */
 body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
@@ -25,8 +25,8 @@ h1 {
 
 /* Header Styles */
 .header {
-    background-color: #007bff;
-    color: #ffffff;
+    background-color: #FF3F00;
+    
     padding: 20px;
     text-align: center;
     width: 100%;
@@ -35,12 +35,13 @@ h1 {
 
 /* Navigation Bar Styles */
 .nav-container {
-    background-color: #ff3f00;
+    background-color: #FF3F00;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .navbar {
     padding: 10px 20px;
+    background-color: #FF3F00;
 }
 
 .navbar-nav .nav-link {
@@ -96,6 +97,6 @@ h1 {
 }
 
 
-.navbar-toggler{
-    background-color: whitesmoke;
+.navbar-toggler {
+    background-color: #fff; 
 }
