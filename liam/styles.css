@@ -1,27 +1,59 @@
 body {
-    background: #ffffff;
-    min-height: 100vh;
-    vertical-align: middle;
-    display: flex;
-    font-family: sans-serif;
-    font-size: 0.8rem;
-    font-weight: bold;
     margin: 0;
-}
-
-.title {
-    margin-bottom: 5vh;
-}
-
-.navbar {
+    padding: 0;
     font-family: 'Times New Roman', Times, serif;
-    background-color: #FF501D;
 }
 
-.navbar-brand {
-    color: #fff;
+.nav-container {
+    background-color: #FF3F00 !important;
+    font-family: 'Times New Roman', Times, serif;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    color: #FF3F00;
+}
+
+header:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.navbar-nav .nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 1.2em;
+    }
+}
+
+/* Custom CSS in style.css */
+
+/* Adjustments for small screens */
+@media (max-width: 576px) {
+    /* Your styles for small screens go here */
+}
+
+/* Adjustments for medium screens */
+@media (min-width: 577px) and (max-width: 768px) {
+    /* Your styles for medium screens go here */
+}
+
+/* Adjustments for large screens */
+@media (min-width: 769px) {
+    /* Your styles for large screens go here */
+}
+
+.navbar-toggler-icon {
+    color: rgb(245, 245, 245);
+}
 
 .card {
     margin: auto;
@@ -30,7 +62,7 @@ body {
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 1rem;
     border: transparent;
-    background-color: #fff;
+    background-color: white;
 }
 
 @media (max-width: 767px) {
@@ -55,7 +87,7 @@ body {
 }
 
 .summary {
-    background-color: #FF501D;
+    background-color: #FF3F00;
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
     padding: 4vh;
@@ -69,10 +101,7 @@ body {
     }
 }
 
-.summary .col-2 {
-    padding: 0;
-}
-
+.summary .col-2,
 .summary .col-10 {
     padding: 0;
 }
@@ -92,10 +121,7 @@ body {
 }
 
 .col-2,
-.col {
-    padding: 0 1vh;
-}
-
+.col,
 a {
     padding: 0 1vh;
 }
@@ -125,18 +151,10 @@ form {
     padding: 2vh 0;
 }
 
-select {
-    border: 1px solid rgba(0, 0, 0, 0.137);
-    padding: 1.5vh 1vh;
-    margin-bottom: 4vh;
-    outline: none;
-    width: 100%;
-    background-color: rgb(247, 247, 247);
-}
-
+select,
 input {
     border: 1px solid rgba(0, 0, 0, 0.137);
-    padding: 1vh;
+    padding: 1.5vh 1vh;
     margin-bottom: 4vh;
     outline: none;
     width: 100%;
@@ -161,10 +179,7 @@ input:focus::-webkit-input-placeholder {
 .btn:focus {
     box-shadow: none;
     outline: none;
-    box-shadow: none;
     color: white;
-    -webkit-box-shadow: none;
-
     transition: none;
 }
 
@@ -183,7 +198,7 @@ a:hover {
 
 #code {
     background-image: linear-gradient(to left, rgba(255, 255, 255, 0.253), rgba(255, 255, 255, 0.185)),
-    url("https://img.icons8.com/small/16/000000/long-arrow-right.png");
+        url("https://img.icons8.com/small/16/000000/long-arrow-right.png");
     background-repeat: no-repeat;
     background-position-x: 95%;
     background-position-y: center;
