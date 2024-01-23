@@ -107,4 +107,14 @@ body{
 }
 img {
     border-radius: 20%;
+
+   
   }
+img:hover
+{
+    border: solid 6px transparent;
+    border-color: #FF3F00;
+    border-radius: 20%;
+    transition: border-color 0.5s ease-in-out;
+
+}  
