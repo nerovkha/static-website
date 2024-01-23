@@ -17,6 +17,7 @@ body {
 a{
 color: #f8f9fa;
 text-decoration: none;
+font-size: 28.21px;
 
 }
 
@@ -24,6 +25,7 @@ text-decoration: none;
 h1 {
     color: black; /* Primary color for headers */
     font-family: 'Times New Roman', Times, serif;
+    font: 28px;
 }
 
 /* Header Styles */
