@@ -105,3 +105,6 @@ body{
         margin-bottom: 10px; /* Add spacing between lines on smaller screens */
     }
 }
+img {
+    border-radius: 20%;
+  }
