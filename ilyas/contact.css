@@ -44,6 +44,10 @@ h1 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+span.navbar-toggler-icon{
+color: #343a40;
+
+}
 .navbar {
     padding: 10px 20px;
     background-color: #FF3F00;
@@ -54,7 +58,9 @@ h1 {
     margin-right: 15px;
 }
 
-
+.navbar-toggler-icon{
+    color: #343a40;
+} 
 
 .div-container{
 
@@ -105,7 +111,7 @@ h1 {
 
 
 .navbar-toggler {
-    background-color: #fff; 
+    background-color: transparent; 
 
 }
 
